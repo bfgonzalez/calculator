@@ -1,7 +1,7 @@
 /* style of main text: Calculator */ 
 h1 {
   color: #FF7043; 
-  font-size: 40px;
+  font-size: 45px;
   text-transform: none;
 }
 
@@ -20,7 +20,7 @@ body {
 .container {
   background-image: linear-gradient(to right, red, orange);
   width: 350px;
-  height: 500px;
+  height: 550px;
   position: relative;
   text-align: center;
   padding: 50px 60px;
@@ -29,21 +29,21 @@ body {
 
 /* container output for screen */ 
 .screen {
-  width: 350px;
+  width: 330px;
   height: 60px;
-  position: relative;
   border-bottom: 2px solid #CFD8DC;
-  margin: auto;  
+  padding: 10px;
 }
 
 #output {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 #history {
-  font-size: 25px;
+  font-size: 30px;
   float: right;
   opacity: 0.8;
+  margin-bottom: 5px;
 }
 
 .buttons {
@@ -53,7 +53,7 @@ body {
 }
 
 #clear-all {
-  width: 66px;
+  width: 152px;
   height: 60px;    
   border: 1px solid;
   padding: 10px;
@@ -64,18 +64,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#clear-entry {
-  width: 66px;
-  height: 60px;    
-  border: 1px solid;
-  padding: 10px;
-  margin-top: -82px;
-  margin-left: 86px;
-}
-
-#clear-entry:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 #backspace {
   width: 66px;
