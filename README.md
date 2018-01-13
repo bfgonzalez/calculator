@@ -1,7 +1,13 @@
+<h1> JavaScript Calculator </h1>
+
 This is a simple calculator app made using HTML, CSS, JavaScript and jQuery. 
-<ul><strong>Update!</strong> [As of January 1, 2018]: <br>
- <li> This calculator can now execute chained computations (more than two numbers in a single computation!) </li> 
+
+<h3> Features [As of January 1, 2018]:</h3>
+<ul><strong>Update!</strong>  <br>
+ <li> This calculator can execute chained computations (more than two numbers in a single computation!) </li> 
  <li> Displays the entire input history the user has made so far (including operators used!) </li>
-  <li> Both the <strong>final answer</strong>(larger) and <strong>input history</strong>(smaller) text fields no longer merely mirror each other (Final answer is displayed only after the computation is executed/ "=" button is pressed; history shows both numbers and operators the user inputs) </li>
- <li> Made some visual changes (Replaced the former "C" and "CE" buttons with just one "Clear" button, but kept the "Back" button should the user wish to only remove some and not all inputs made </li>
+ <li> Ability to make use of either positive(+) or negative(-) integers in equation </li>
 </ul>
+<br><br> 
+<a href="https://bfgonzalez.github.io/calculator" target="_blank" rel="noopener">[Demo]</a>
+<img src="https://s13.postimg.org/ql28hc26v/Calculator.png" alt="JavaScript Calculator"></a>
