@@ -52,7 +52,7 @@ body {
   cursor: pointer;
 }
 
-#clear-all {
+#clear {
   width: 152px;
   height: 60px;    
   border: 1px solid;
@@ -60,7 +60,7 @@ body {
   margin-top: 10px;
 }
 
-#clear-all:hover {
+#clear:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -183,7 +183,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#minus {
+#subtract {
   width: 66px;
   height: 60px;   
   border: 1px solid;
@@ -192,7 +192,7 @@ body {
   margin-left: 262px;
 }
 
-#minus:hover {
+#subtract:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -234,7 +234,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#plus {
+#add {
   width: 66px;
   height: 60px;   
   border: 1px solid;
@@ -243,7 +243,7 @@ body {
   margin-left: 262px;
 }
 
-#plus:hover {
+#add:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -259,7 +259,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#dot {
+#decimal {
   width: 66px;
   height: 60px;    
   border: 1px solid;
@@ -268,7 +268,7 @@ body {
   margin-left: 86px;
 }
 
-#dot:hover {
+#decimal:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

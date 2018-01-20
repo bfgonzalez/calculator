@@ -14,13 +14,13 @@ $(document).ready(function () {
   history.text(""); 
   final.text("");
   
-  $(".buttons").not("#clear-all, #clear-entry, #backspace, #equals, #plus, #minus, #multiply, #divide, #pos-neg").on("click", function() {
+  $(".buttons").not("#clear, #backspace, #equals, #add, #subtract, #multiply, #divide, #pos-neg").on("click", function() {
     number += $(this).text();
     history.text(number);
     testLength(number);
   });
   
-  $("#plus, #minus, #multiply, #divide").on("click", function() {
+  $("#add, #subtract, #multiply, #divide").on("click", function() {
     operator = $(this).text();
     newNumber = number;
     number += operator;
@@ -33,11 +33,11 @@ $(document).ready(function () {
     history.text(number += newSign);
   }); 
   
-  $("#clear-all").on("click", function() {
+  $("#clear").on("click", function() {
     number = "";
     history.text("");
     final.text("");
-    if ($(this).attr("id") === "clear-all") {
+    if ($(this).attr("id") === "clear") {
       newNumber = "";
     }
     
