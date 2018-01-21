@@ -1,7 +1,7 @@
 /* style of main text: Calculator */ 
 h1 {
   color: #FF7043; 
-  font-size: 45px;
+  font-size: 3.2em;
   text-transform: none;
 }
 
@@ -19,35 +19,35 @@ body {
 /* main app container for calculator itself*/ 
 .container {
   background-image: linear-gradient(to right, red, orange);
-  width: 350px;
-  height: 550px;
+  width: 22em;
+  height: 32em;
   position: relative;
   text-align: center;
-  padding: 50px 60px;
+  padding: 2.5em 3.6em 4.6em 3.6em;
   margin: auto;
 }
 
 /* container output for screen */ 
 .screen {
-  width: 330px;
-  height: 60px;
+  width: 20.5em;
+  height: 3.5em;
   border-bottom: 2px solid #CFD8DC;
-  padding: 10px;
+  padding: 0.7em;
 }
 
 #output {
-  font-size: 40px;
+  font-size: 2.5em;
 }
 
 #history {
-  font-size: 30px;
+  font-size: 2em;
   float: right;
   opacity: 0.8;
-  margin-bottom: 5px;
+
 }
 
 .buttons {
-  font-size: 40px;
+  font-size: 2.5em;
   line-height: 60px;
   cursor: pointer;
 }
