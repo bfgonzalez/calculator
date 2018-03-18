@@ -26,6 +26,7 @@ $(document).ready(function () {
     number += operator;
     history.text(number);
   });
+  
   // testing +/- functionality
   $("#pos-neg").on("click", function () {
     var currentSign = $("#history").text();
