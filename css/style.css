@@ -1,22 +1,19 @@
-/* style of main text: Calculator */ 
-h1 {
-  color: #FF7043; 
-  font-size: 3.2em;
-  text-transform: none;
-}
 
-/* main background style */
 body {
   background-color: #e3f2fd;
-  
-  /* main font-stlye for text */
   font-family: "Questrial", sans-serif;
   text-align: center;
   font-weight: lighter;
   color: #e3f2fd;
 }
 
-/* main app container for calculator itself*/ 
+h1 {
+  color: #FF7043;
+  font-size: 3.2em;
+  text-transform: none;
+}
+
+/* main app container for calculator itself*/
 .container {
   background-image: linear-gradient(to right, red, orange);
   width: 22em;
@@ -27,7 +24,6 @@ body {
   margin: auto;
 }
 
-/* container output for screen */ 
 .screen {
   width: 20.5em;
   height: 3.5em;
@@ -54,7 +50,7 @@ body {
 
 #clear {
   width: 152px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: 10px;
@@ -64,10 +60,9 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 #backspace {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -81,7 +76,7 @@ body {
 
 #divide {
   width: 66px;
-  height: 60px; 
+  height: 60px;
   font-weight: bold;
   border: 1px solid;
   padding: 10px;
@@ -95,7 +90,7 @@ body {
 
 #seven {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: 10px;
@@ -107,7 +102,7 @@ body {
 
 #eight {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -120,7 +115,7 @@ body {
 
 #nine {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -133,7 +128,7 @@ body {
 
 #multiply {
   width: 66px;
-  height: 60px;  
+  height: 60px;
   font-weight: bold;
   border: 1px solid;
   padding: 10px;
@@ -147,7 +142,7 @@ body {
 
 #four {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: 10px;
@@ -159,10 +154,10 @@ body {
 
 #five {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
-  margin-top: -82px; 
+  margin-top: -82px;
   margin-left: 86px;
 }
 
@@ -172,7 +167,7 @@ body {
 
 #six {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -185,7 +180,7 @@ body {
 
 #subtract {
   width: 66px;
-  height: 60px;   
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -198,7 +193,7 @@ body {
 
 #three {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: 10px;
@@ -210,10 +205,10 @@ body {
 
 #two {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
-  margin-top: -82px; 
+  margin-top: -82px;
   margin-left: 86px;
 }
 
@@ -223,7 +218,7 @@ body {
 
 #one {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -236,7 +231,7 @@ body {
 
 #add {
   width: 66px;
-  height: 60px;   
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -249,7 +244,7 @@ body {
 
 #zero {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: 10px;
@@ -261,10 +256,10 @@ body {
 
 #decimal {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
-  margin-top: -82px; 
+  margin-top: -82px;
   margin-left: 86px;
 }
 
@@ -274,7 +269,7 @@ body {
 
 #pos-neg {
   width: 66px;
-  height: 60px;    
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
@@ -287,7 +282,7 @@ body {
 
 #equals {
   width: 66px;
-  height: 60px;   
+  height: 60px;
   border: 1px solid;
   padding: 10px;
   margin-top: -82px;
