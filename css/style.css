@@ -9,34 +9,34 @@ body {
 
 h1 {
   color: #FF7043;
-  font-size: 3.2em;
+  font-size: 3.2rem;
   text-transform: none;
 }
 
 /* main app container for calculator itself*/
 .container {
   background-image: linear-gradient(to right, red, orange);
-  width: 22em;
-  height: 32em;
+  width: 22rem;
+  height: 32rem;
   position: relative;
   text-align: center;
-  padding: 2.5em 3.6em 4.6em 3.6em;
+  padding: 2.5rem 3.6rem 4.6rem 3.6rem;
   margin: auto;
 }
 
 .screen {
-  width: 20.5em;
-  height: 3.5em;
+  width: 20.5rem;
+  height: 3.5rem;
   border-bottom: 2px solid #CFD8DC;
-  padding: 0.7em;
+  padding: 0.7rem;
 }
 
 #output {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 #history {
-  font-size: 2em;
+  font-size: 2rem;
   float: right;
   opacity: 0.8;
 
@@ -52,13 +52,13 @@ h1 {
   cursor: pointer;
 }
 
+.buttons:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #clear {
   width: 152px;
   margin-top: 10px;
-}
-
-#clear:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #backspace {
@@ -68,26 +68,10 @@ h1 {
 
 }
 
-#backspace:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 #divide {
   font-weight: bold;
   margin-top: -82px;
   margin-left: 262px;
-}
-
-#divide:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#seven {
-  margin-top: 10px;
-}
-
-#seven:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #eight {
@@ -95,17 +79,9 @@ h1 {
   margin-left: 86px;
 }
 
-#eight:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 #nine {
   margin-top: -82px;
   margin-left: 174px;
-}
-
-#nine:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #multiply {
@@ -114,25 +90,9 @@ h1 {
   margin-left: 262px;
 }
 
-#multiply:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#four {
-  margin-top: 10px;
-}
-
-#four:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 #five {
   margin-top: -82px;
   margin-left: 86px;
-}
-
-#five:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #six {
@@ -140,25 +100,9 @@ h1 {
   margin-left: 174px;
 }
 
-#six:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 #subtract {
   margin-top: -82px;
   margin-left: 262px;
-}
-
-#subtract:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#three {
-  margin-top: 10px;
-}
-
-#three:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #two {
@@ -166,17 +110,9 @@ h1 {
   margin-left: 86px;
 }
 
-#two:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 #one {
   margin-top: -82px;
   margin-left: 174px;
-}
-
-#one:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #add {
@@ -184,25 +120,9 @@ h1 {
   margin-left: 262px;
 }
 
-#add:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#zero {
-  margin-top: 10px;
-}
-
-#zero:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 #decimal {
   margin-top: -82px;
   margin-left: 86px;
-}
-
-#decimal:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #pos-neg {
@@ -210,15 +130,7 @@ h1 {
   margin-left: 174px;
 }
 
-#pos-neg:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 #equals {
   margin-top: -82px;
   margin-left: 262px;
-}
-
-#equals:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
