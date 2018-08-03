@@ -56,6 +56,7 @@ button {
   font-family: "Questrial", sans-serif;
   line-height: 4rem;
   border: 1px solid;
+  outline: none;
   padding: 0.7rem;
   cursor: pointer;
   background: transparent;

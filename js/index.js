@@ -59,10 +59,17 @@ $(document).ready(function () {
       number = number.replace(/x/g, "*").replace(/÷/g, "/");
       answer = eval(number);
     }
+
     if (answer.length > 14) {
       answer = "Max length reached";
     }
-    final.text(answer.toFixed(2));
+
+    if (answer % 2 !== 0) {
+      final.text(answer.toFixed(2));
+    } else {
+      final.text(Math.round(answer));
+    }
+
     testLength(number);
     number = "";
   });
