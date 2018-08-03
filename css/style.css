@@ -1,10 +1,16 @@
+/* css variables for colors */
+:root {
+  --lightblue: #e3f2fd;
+  --orange: #FF7043;
+}
 
 body {
-  background-color: #e3f2fd;
+  background-color: var(--lightblue);
   font-family: "Questrial", sans-serif;
+  font-size: 0; /* removes space between buttons */
   text-align: center;
   font-weight: lighter;
-  color: #e3f2fd;
+  color: var(--lightblue);
 }
 
 h1 {
@@ -16,8 +22,8 @@ h1 {
 /* main app container for calculator itself*/
 .container {
   background-image: linear-gradient(to right, red, orange);
-  width: 22rem;
-  height: 32rem;
+  width: 20rem;
+  height: 30rem;
   position: relative;
   text-align: center;
   padding: 2.5rem 3.6rem 4.6rem 3.6rem;
@@ -25,112 +31,45 @@ h1 {
 }
 
 .screen {
-  width: 20.5rem;
+  width: 18.7rem;
   height: 3.5rem;
-  border-bottom: 2px solid #CFD8DC;
+  border-bottom: 2px solid var(--lightblue);
   padding: 0.7rem;
 }
 
 #output {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 #history {
-  font-size: 2rem;
+  font-size: 1.8rem;
   float: right;
   opacity: 0.8;
 
 }
 
-.buttons {
-  width: 66px;
-  height: 60px;
-  font-size: 2.5em;
-  line-height: 60px;
+button {
+  width: 5rem;
+  height: 5rem;
+  color: var(--lightblue);
+  font-size: 1.75rem;
+  font-family: "Questrial", sans-serif;
+  line-height: 4rem;
   border: 1px solid;
-  padding: 10px;
+  padding: 0.7rem;
   cursor: pointer;
+  background: transparent;
 }
 
-.buttons:hover {
+button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #clear {
-  width: 152px;
-  margin-top: 10px;
+  width: 10rem;
+  margin-top: 0.6rem;
 }
 
-#backspace {
-  font-size: 30px;
-  margin-top: -82px;
-  margin-left: 174px;
-
-}
-
-#divide {
-  font-weight: bold;
-  margin-top: -82px;
-  margin-left: 262px;
-}
-
-#eight {
-  margin-top: -82px;
-  margin-left: 86px;
-}
-
-#nine {
-  margin-top: -82px;
-  margin-left: 174px;
-}
-
-#multiply {
-  font-weight: bold;
-  margin-top: -82px;
-  margin-left: 262px;
-}
-
-#five {
-  margin-top: -82px;
-  margin-left: 86px;
-}
-
-#six {
-  margin-top: -82px;
-  margin-left: 174px;
-}
-
-#subtract {
-  margin-top: -82px;
-  margin-left: 262px;
-}
-
-#two {
-  margin-top: -82px;
-  margin-left: 86px;
-}
-
-#one {
-  margin-top: -82px;
-  margin-left: 174px;
-}
-
-#add {
-  margin-top: -82px;
-  margin-left: 262px;
-}
-
-#decimal {
-  margin-top: -82px;
-  margin-left: 86px;
-}
-
-#pos-neg {
-  margin-top: -82px;
-  margin-left: 174px;
-}
-
-#equals {
-  margin-top: -82px;
-  margin-left: 262px;
+#clear, #backspace {
+  font-size: 1.6rem;
 }

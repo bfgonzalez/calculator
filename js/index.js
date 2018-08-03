@@ -14,7 +14,7 @@ $(document).ready(function () {
   history.text("");
   final.text("");
 
-  $(".buttons").not("#clear, #backspace, #equals, #add, #subtract, #multiply, #divide, #pos-neg").on("click", function() {
+  $("button").not("#clear, #backspace, #equals, #add, #subtract, #multiply, #divide, #pos-neg").on("click", function() {
     number += $(this).text();
     history.text(number);
     testLength(number);
