@@ -15,7 +15,7 @@ body {
 
 h1 {
   color: #FF7043;
-  font-size: 3.2rem;
+  font-size: 3rem;
   text-transform: none;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 .screen {
-  width: 18.7rem;
+  width: 18.65rem;
   height: 3.5rem;
   border-bottom: 2px solid var(--lightblue);
   padding: 0.7rem;
@@ -44,7 +44,7 @@ h1 {
 #history {
   font-size: 1.8rem;
   float: right;
-  opacity: 0.8;
+  opacity: 0.9;
 
 }
 
