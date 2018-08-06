@@ -64,7 +64,7 @@ $(document).ready(function () {
       answer = "Max length reached";
     }
 
-    if (answer % 2 !== 0) {
+    if (answer % 1 !== 0) {
       final.text(answer.toFixed(2));
     } else {
       final.text(Math.round(answer));
