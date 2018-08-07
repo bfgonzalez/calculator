@@ -65,7 +65,7 @@ $(document).ready(function () {
     }
 
     if (answer % 1 == 0) {
-      final.text(Math.round(answer));
+      final.text(answer);
     } else {
       final.text(answer.toFixed(2));
     }
