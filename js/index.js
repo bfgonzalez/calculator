@@ -1,11 +1,4 @@
 $(document).ready(function () {
-  var testLength = function (number) {
-    if (number.length > 14) {
-      number = "";
-      history.text("Max length reached");
-    }
-  };
-
   var number = "";
   var newNumber = "";
 
@@ -13,6 +6,13 @@ $(document).ready(function () {
   var final = $("#output");
   history.text("");
   final.text("");
+
+  var testLength = function (number) {
+    if (number.length > 14) {
+      number = "";
+      history.text("Max length reached");
+    }
+  };
 
   $("button").not("#clear, #backspace, #equals, #add, #subtract, #multiply, #divide, #pos-neg").on("click", function() {
     number += $(this).text();
@@ -54,7 +54,7 @@ $(document).ready(function () {
     final.text("");
   });
 
-  $("#equals").on("click", function () {
+  document.getElementById("equals").addEventListener("click", function() {
     if (operator) {
       number = number.replace(/x/g, "*").replace(/÷/g, "/");
       answer = eval(number);
@@ -73,4 +73,6 @@ $(document).ready(function () {
     testLength(number);
     number = "";
   });
+
+
 });
