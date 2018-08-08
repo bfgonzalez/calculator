@@ -1,7 +1,5 @@
 $(document).ready(function () {
   var number = "";
-  var newNumber = "";
-
   var history = $("#history");
   var final = $("#output");
   history.text("");
@@ -14,8 +12,8 @@ $(document).ready(function () {
     }
   };
 
-  $("button").not("#clear, #backspace, #equals, #add, #subtract, #multiply, #divide, #pos-neg").on("click", function() {
-    number += $(this).text();
+  $(".number-btn").on("click", function() {
+    number += this.textContent;
     history.text(number);
     testLength(number);
   });
