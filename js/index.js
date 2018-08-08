@@ -18,9 +18,8 @@ $(document).ready(function () {
     testLength(number);
   });
 
-  $("#add, #subtract, #multiply, #divide").on("click", function() {
-    operator = $(this).text();
-    newNumber = number;
+  $(".operator-btn").on("click", function() {
+    operator = this.textContent;
     number += operator;
     history.text(number);
   });
@@ -36,9 +35,6 @@ $(document).ready(function () {
     number = "";
     history.text("");
     final.text("");
-    if ($(this).attr("id") === "clear") {
-      newNumber = "";
-    }
   });
 
   $("#backspace").on("click", function() {
